@@ -1,0 +1,386 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.battle {
+  width: 60%;
+  height: 60vh;
+  margin-top: 4%;
+  padding: 0;
+  margin-bottom: 3%;
+}
+
+.nav-tab {
+  position: static;
+  border: solid 2px rgb(230, 178, 7);
+}
+
+.picDiv {
+  border-bottom: solid rgb(230, 178, 7) 2px;
+}
+
+.words {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background-color: black;
+   font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  
+}
+
+.textOverImg {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(230, 178, 7);
+  font-family: "UnifrakturCook", cursive;
+    font-weight: 700;
+  font-style: normal;
+-webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.gabesWords {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.punchOne {
+   position: absolute;
+  top: 25%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+box-shadow: 5px 5px 10px rgb(179, 116, 1);
+  border-radius: 2%; 
+
+}
+
+.fightOne {
+  position: absolute;
+  width: 20%;
+  top: 65%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 5px 5px rgb(179, 116, 1);
+  border-radius: 2%;
+}
+
+.fightThree {
+  position: absolute;
+  top: 25%;
+  left: 86%;
+  transform: translate(-50%, -50%);
+ box-shadow: 4px 4px 8px rgba(172, 127, 3, 0.959), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2%; 
+}
+
+.fightFour {
+  width: 250px;
+  height: 30vh;
+   position: absolute;
+  top: 65%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 5px rgb(179, 116, 1);
+  border-radius: 2%;
+}
+
+
+.waiverStuff {
+  font-family: "Germania One", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.shield {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+width: 500px;
+}
+
+/* .unifrakturcook-bold {
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+.nav-item {
+  margin-top: 10px;
+   font-family: "Germania One", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.contactStuff {
+   font-family: "Germania One", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.eventStuff {
+  font-family: "Germania One", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+a:hover {
+  color: rgb(255, 4, 4) !important;
+}
+
+a:active {
+  color: purple;
+}
+
+.nav {
+  border-bottom: solid 2px rgb(172, 118, 0);
+  outline: 1px solid red;
+}
+
+footer {
+   font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-item {
+    margin-left: 3%;
+    margin-top: 10px;
+  }
+
+  .waiverStuff img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #navTab {
+    font-size: medium;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .nav-item {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .waiverStuff img {
+    width: 60%;
+    height: auto;
+  }
+
+  .waiverStuff h3 {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .waiverStuff img {
+    width: 80%;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  #navTab img {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-item {
+    margin-left: 3%;
+    margin-top: 10px;
+  }
+
+  .eventStuff img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #navTab {
+    font-size: medium;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .nav-item {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
+  .eventStuff {
+    padding: 0 10px;
+  }
+
+  .eventStuff img {
+    width: 60%;
+    height: auto;
+  }
+
+  .eventStuff h2 {
+    font-size: 1rem;
+  }
+
+  .eventStuff ul {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .eventStuff img {
+    width: 80%;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  #navTab img {
+    width: 50px;
+  }
+
+  .eventStuff h2 {
+    font-size: 0.95rem;
+  }
+
+  .eventStuff li {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #navTab {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-item {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .picDiv img,
+  .contactStuff img {
+    width: 100%;
+    height: auto;
+  }
+
+  .words {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .gabesWords h1 {
+    font-size: 1.75rem;
+  }
+
+  .gabesWords h3 {
+    font-size: 1.2rem;
+  }
+
+  .contactStuff h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-item {
+    margin-left: 3%;
+  }
+
+  .gabesWords h1 {
+    font-size: 2rem;
+  }
+
+  .gabesWords h3 {
+    font-size: 1.4rem;
+  }
+
+  .words {
+    padding: 2rem;
+    font-size: 1rem;
+  }
+
+  .contactStuff h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .gabesWords h1 {
+    font-size: 2.5rem;
+  }
+
+  .gabesWords h3 {
+    font-size: 1.75rem;
+  }
+
+  .words {
+    padding: 2.5rem;
+    font-size: 1.1rem;
+  }
+
+  .contactStuff h2 {
+    font-size: 1.6rem;
+  }
+}
