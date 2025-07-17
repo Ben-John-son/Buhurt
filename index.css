@@ -571,22 +571,22 @@ footer {
   .punchOne,
   .fightOne,
   .fightThree,
-  .fightFour,
-  .shield {
+  .fightFour {
     position: static; 
     display: block;
     margin: 10px auto;
-    width: 80%;
+    width: 10%;
     height: auto;
     box-shadow: none;
   }
 
   .shield {
-    width: 60%; /* Slightly smaller */
+    width: 30%;
   }
 .picDiv {
    display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   gap: 3px;
   padding: 3px;
