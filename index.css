@@ -572,16 +572,16 @@ footer {
   .fightOne,
   .fightThree,
   .fightFour {
-    position: static; 
+    position: relative; 
     display: block;
     margin: 10px auto;
-    width: 10%;
-    height: auto;
+    width: 7%;
+    height: 8%;
     box-shadow: none;
   }
 
   .shield {
-    width: 30%;
+    width: 15%;
   }
 .picDiv {
    display: flex;
@@ -602,10 +602,7 @@ footer {
     padding-bottom: 10vh;
   }
 
-  #navTab {
-    position: relative;
-    z-index: 1000;
-  }
+ 
 
   .eventStuff {
     margin-top: 2rem;
@@ -616,11 +613,14 @@ footer {
   #navTab {
     height: auto;
     padding: 10px;
+     position: relative;
+    z-index: 1000;
   }
 
   .nav {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-items: flex-start;
     padding-left: 0;
     margin: 0;
   }
