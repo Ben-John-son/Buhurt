@@ -509,3 +509,38 @@ footer {
     width: 500px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .punchOne,
+  .fightOne,
+  .fightThree,
+  .fightFour,
+  .shield {
+    position: static; /* Disable absolute for stacking layout */
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    height: auto;
+    box-shadow: none;
+  }
+
+  .shield {
+    width: 60%; /* Slightly smaller */
+  }
+
+
+  .imageStage {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+
+  #navTab {
+    position: relative;
+    z-index: 1000;
+  }
+
+  .eventStuff {
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+}
