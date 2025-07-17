@@ -366,6 +366,18 @@ footer {
   .nav-link {
     font-size: 1rem;
   }
+  .picDiv {
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px;
+  background-color: black;
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  border-bottom: solid rgb(230, 178, 7) 2px;
+}
 
   .picDiv img,
   .contactStuff img {
@@ -572,7 +584,18 @@ footer {
   .shield {
     width: 60%; /* Slightly smaller */
   }
-
+.picDiv {
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3px;
+  padding: 3px;
+  background-color: black;
+  position: relative;
+  height: 40vh;
+  width: 100%;
+  border-bottom: solid rgb(230, 178, 7) 2px;
+}
 
   .imageStage {
     padding-top: 10vh;
