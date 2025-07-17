@@ -384,3 +384,118 @@ footer {
     font-size: 1.6rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .punchOne {
+    width: 120px;
+    top: 20%;
+    left: 30%;
+  }
+
+  .fightOne {
+    width: 100px;
+    top: 70%;
+    left: 70%;
+  }
+
+  .fightThree {
+    width: 100px;
+    top: 30%;
+    left: 80%;
+  }
+
+  .fightFour {
+    width: 150px;
+    height: 25vh;
+    top: 75%;
+    left: 30%;
+  }
+
+  .shield {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .punchOne {
+    width: 150px;
+    top: 22%;
+    left: 20%;
+  }
+
+  .fightOne {
+    width: 130px;
+    top: 65%;
+    left: 75%;
+  }
+
+  .fightThree {
+    width: 130px;
+    top: 25%;
+    left: 85%;
+  }
+
+  .fightFour {
+    width: 180px;
+    height: 28vh;
+    top: 68%;
+    left: 25%;
+  }
+
+  .shield {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .punchOne {
+    width: 180px;
+    top: 24%;
+    left: 18%;
+  }
+
+  .fightOne {
+    width: 160px;
+    top: 65%;
+    left: 78%;
+  }
+
+  .fightThree {
+    width: 160px;
+    top: 24%;
+    left: 86%;
+  }
+
+  .fightFour {
+    width: 200px;
+    height: 28vh;
+    top: 65%;
+    left: 22%;
+  }
+
+  .shield {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .punchOne {
+    width: auto; /* Defaults to whatever original CSS defines */
+  }
+
+  .fightOne {
+    width: 20%;
+  }
+
+  .fightThree {
+    width: auto;
+  }
+
+  .fightFour {
+    width: 250px;
+    height: 30vh;
+  }
+
+  .shield {
+    width: 500px;
+  }
+}
